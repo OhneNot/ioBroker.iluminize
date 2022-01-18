@@ -1,0 +1,72 @@
+{
+   "common":{
+      "name":"iluminize",
+      "version":"1.0.0",
+      "news":{
+         "1.1.0":{
+            "en":"ioBroker adapter for iluminize 511.314 controllers",
+            "de":"ioBroker Adapter für iluminize 511.314 Controller"
+         }
+      },
+      "title":"iluminize",
+      "titleLang":{
+         "en":"iluminize ioBroker adapter",
+         "de":"iluminize ioBroker Adapter"
+      },
+      "desc":{
+         "en":"Connects iluminize by ACTIVE SEND protocoll",
+         "de":"Verbindet das iluminize über das ACTICE SEND Protokoll"
+      },
+      "authors":[
+         "Author <mail@dmxface.at>"
+      ],
+      "keywords":[
+         "ioBroker",
+         "dmxface",
+         "iluminize",
+         "Remote controller",
+         "Smart Home",
+         "home automation"
+      ],
+      "license":"MIT",
+      "platform":"Javascript/Node.js",
+      "main":"main.js",
+      "icon":"dmxface.png",
+      "enabled":true,
+      "extIcon":"https://raw.githubusercontent.com/DMXface/ioBroker.dmxface/master/admin/dmxface.png",
+      "readme":"https://github.com/DMXface/ioBroker.dmxface/blob/master/README.md",
+      "loglevel":"info",
+      "mode":"daemon",
+      "type":"general",
+      "compact":true,
+      "materialize":true,
+      "materializeTab":true,
+      "adminTab":{
+         "singleton":true,
+         "name":{
+            "en":"iluminize",
+            "de":"iluminize"
+         },
+         "link":"www.iluminize.com",
+         "fa-icon":"info"
+      },
+      "supportCustoms":true,
+      "dependencies":[
+         {
+            "js-controller":">=1.4.2"
+         }
+      ]
+   },
+   "native":{
+      "ipaddress":"0.0.0.0",
+      "port":"6000",
+      "requesttiming":"1000",
+      "lastdmxchannel":"0"
+   },
+   "objects":[
+
+   ],
+   "instanceObjects":[
+
+   ]
+}
